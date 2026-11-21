@@ -1,0 +1,16 @@
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+token.json
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
